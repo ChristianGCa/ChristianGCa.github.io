@@ -1,88 +1,84 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio Christian Gabriel Candeloni</title>
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-
-    <!-- Dev Icon Fonts -->
-    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
-    <!-- CSS do projeto -->
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f3f7f5">
+  <meta name="description" content="Christian Gabriel Candeloni é desenvolvedor de software. Conheça seus projetos em aplicações web, APIs e integração de sistemas.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Christian Gabriel Candeloni | Desenvolvedor de software">
+  <meta property="og:description" content="Projetos em aplicações web, APIs e integração de sistemas.">
+  <meta property="og:url" content="https://christiangca.github.io/">
+  <title>Christian Gabriel Candeloni | Desenvolvedor de software</title>
+  <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
-    <main id="container">
-        <aside id="bio-container">
-            <h2>Christian Gabriel Candeloni</h2>
-            <img id="bio-img" src="img/perfil1.jpg" alt="Christian Gabriel Candeloni">
-            <p>Olá, meu nome é Christian Gabriel Candeloni e sou <span class="highlight">Desenvolvedor de software</span></p>
-            <p id="welcome-text">Seja bem-vindo!</p>
-            <ul id="social-container">
-                <li><a href='https://www.linkedin.com/in/christian-gabriel-candeloni/' target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a></li>
-                <li><a href='https://www.facebook.com/christiangcandeloni/' target="_blank"><ion-icon name="logo-facebook"></ion-icon></a></li>
-                <li><a href='https://www.instagram.com/christian_gcandeloni/' target="_blank"><ion-icon name="logo-instagram"></ion-icon></a></li>
-            </ul>
-            <div id="email-container">
-                <ion-icon name="mail-outline"></ion-icon><a href="mailto:candelonichristian@gmail.com">candelonichristian@gmail.com</a>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <header class="site-header">
+    <div class="header-inner wrap">
+      <a class="brand" href="#inicio" aria-label="Christian Candeloni, início">CGC<span>.</span></a>
+      <nav aria-label="Navegação principal"><a href="#projetos">Projetos</a><a href="#sobre">Sobre</a><a href="#contato">Contato</a></nav>
+      <a class="header-link" href="https://www.linkedin.com/in/christian-gabriel-candeloni/" target="_blank" rel="noopener noreferrer">LinkedIn <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 16 16 4M6 4h10v10"/></svg></a>
+    </div>
+  </header>
+  <main id="conteudo">
+    <section class="hero wrap" id="inicio" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="hero-intro">Olá, eu sou o Christian.</p>
+        <h1 id="hero-title">Software que <em>funciona</em> no mundo real.</h1>
+        <p class="hero-description">Sou Christian Gabriel Candeloni, desenvolvedor com foco em backend, integração de sistemas e aplicações web. Gosto de transformar problemas concretos em soluções claras e úteis.</p>
+        <div class="hero-actions">
+          <a class="button button-dark" href="#projetos">Explorar projetos <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10h12m-5-5 5 5-5 5"/></svg></a>
+          <a class="text-link" href="mailto:candelonichristian@gmail.com">Entrar em contato <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10h12m-5-5 5 5-5 5"/></svg></a>
+        </div>
+      </div>
+      <figure class="hero-portrait">
+        <img src="img/perfil1.webp" width="454" height="454" alt="Christian Gabriel Candeloni em seu ambiente de trabalho" fetchpriority="high">
+        <figcaption><strong>Christian Gabriel Candeloni</strong><span>Desenvolvedor de software · Brasil</span></figcaption>
+      </figure>
+    </section>
+    <section class="projects-section" id="projetos" aria-labelledby="projects-title">
+      <div class="wrap">
+        <div class="section-heading"><div><h2 id="projects-title">Projetos em destaque<span class="period">.</span></h2><p>Uma seleção de produtos e sistemas que mostram como penso, construo e entrego.</p></div><a class="text-link" href="https://github.com/ChristianGCa?tab=repositories" target="_blank" rel="noopener noreferrer">Todos no GitHub <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 16 16 4M6 4h10v10"/></svg></a></div>
+        <article class="featured-project">
+          <div class="featured-info">
+            <p class="project-type">Aplicação web · Projeto em destaque</p><h3>Pure MD<span class="period">.</span></h3>
+            <p>Um editor Markdown que roda no navegador, com prévia em tempo real, atalhos de formatação e exportação para <code>.md</code>. Sem conta e sem backend.</p>
+            <ul class="tag-list" aria-label="Tecnologias do Pure MD"><li>React</li><li>TypeScript</li><li>Vite</li><li>Vitest</li></ul>
+            <div class="project-actions"><a class="button button-light" href="https://pure-md.vercel.app/" target="_blank" rel="noopener noreferrer">Usar o Pure MD <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 16 16 4M6 4h10v10"/></svg></a><a class="project-source" href="https://github.com/ChristianGCa/pure-md" target="_blank" rel="noopener noreferrer">Ver código-fonte <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 16 16 4M6 4h10v10"/></svg></a></div>
+          </div>
+          <div class="editor-art"><img src="img/screen.webp" width="1914" height="933" alt="Captura do Pure MD com o editor Markdown e a prévia lado a lado."></div>
+        </article>
+        <div class="project-list">
+          <article class="project-row">
+            <div class="project-index">01 / Projeto de estágio</div>
+            <div class="project-row-main">
+              <h3>Desk2Agile</h3>
+              <p>Durante meu estágio, desenvolvi um middleware em Spring Boot que cria issues no Taiga a partir de chamados do GLPI e atualiza o progresso no chamado conforme a issue avança. O fluxo substituiu a criação e a sincronização manuais.</p>
+              <ul class="tag-list" aria-label="Tecnologias do Desk2Agile"><li>Java</li><li>Spring Boot</li><li>Webhooks</li></ul>
             </div>
-        </aside>
-        <section id="about-container">
-            <h1 id="name">Christian Gabriel Candeloni</h1>
-            <p id="title"><span class="highlight">Desenvolvedor de software</span></p>
-            <p class="description">Sou estudante de <span class=highlight>Ciência da Computação</span> com grande interesse por desenvolvimento de software. Gosto de trabalhar no backend, sempre buscando construir projetos robustos, funcionais e bem organizados.</p>
-            <p class="description">Tenho afinidade com <span class="highlight">Python</span> para criar programas diversos, usando <span class="highlight">Django</span> e o framework <span class="highlight">Flutter</span> para aplicativos mobile. Também sou entusiasta do <span class="highlight">Linux</span> e gosto de explorar seu ecossistema para entender melhor como os sistemas funcionam "por baixo dos panos".</p>
-            <p class="description">Também já trabalhei com as linguagens <span class="highlight">Java</span>, <span class="highlight">C</span>, <span class="highlight">Javascript</span> e produzi jogos na <span class="highlight">Godot</span>.</p>
-            <a href="https://github.com/ChristianGCa" id="btn-projects">
-                <ion-icon name="share-social-outline"></ion-icon>
-                <span>Ver Projetos</span>
-            </a>
-            <h2 id="skills-section-title">Habilidades</h2>
-            <p class="description">Aqui estão algumas das minhas habilidades:</p>
-            <div id="skills-container">
-                <div class="skills-box">
-                    <p class="skills-title">Front-end</p>
-                    <i class="devicon-html5-plain colored"></i>
-                    <i class="devicon-css3-plain colored"></i>
-                    <i class="devicon-javascript-plain colored"></i>
-                </div>
-                <div class="skills-box">
-                    <p class="skills-title">Back-end</p>
-                    <i class="devicon-python-plain colored"></i>
-                    <i class="devicon-java-plain colored"></i>
-                </div>
-                <div class="skills-box">
-                    <p class="skills-title">Frameworks</p>
-                    <i class="devicon-nodejs-plain colored"></i>
-                    <i class="devicon-flutter-plain colored"></i>
-                    <i class="devicon-django-plain colored"></i>
-                </div>
-                <div class="skills-box">
-                    <p class="skills-title">Banco de Dados</p>
-                    <i class="devicon-mysql-plain colored"></i>
-                    <i class="devicon-mongodb-plain colored"></i>
-                </div>
-                <div class="skills-box">
-                    <p class="skills-title">Ferramentas</p>
-                    <i class="devicon-git-plain colored"></i>
-                    <i class="devicon-github-original"></i>
-                    <i class="devicon-linux-plain colored"></i>
-                    <i class="devicon-docker-plain colored"></i>
-                </div>
+            <a class="row-link" href="https://github.com/ChristianGCa/Desk2Agile" target="_blank" rel="noopener noreferrer" aria-label="Ver Desk2Agile no GitHub"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 16 16 4M6 4h10v10"/></svg></a>
+          </article>
+          <article class="project-row project-row-visual">
+            <div class="project-index">02 / Projeto de curso</div>
+            <div class="project-row-main">
+              <h3>Sistema de Gestão de Estoque</h3>
+              <p>Aplicação web desenvolvida no curso Django Master para cadastrar produtos e fornecedores, registrar entradas e saídas de estoque e acompanhar métricas de vendas. Inclui uma API REST com autenticação JWT.</p>
+              <ul class="tag-list" aria-label="Tecnologias do Sistema de Gestão de Estoque"><li>Python</li><li>Django</li><li>Bootstrap</li><li>API REST</li></ul>
             </div>
-        </section>
-    </main>
-    <!-- Ion Icons -->
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-
+            <figure class="project-preview"><img src="img/gestao.webp" width="1920" height="932" loading="lazy" decoding="async" alt="Tela do Sistema de Gestão de Estoque com métricas de vendas e lista de saídas de produtos."></figure>
+            <a class="row-link" href="https://github.com/ChristianGCa/sistema_gestao_estoque" target="_blank" rel="noopener noreferrer" aria-label="Ver Sistema de Gestão de Estoque no GitHub"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 16 16 4M6 4h10v10"/></svg></a>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section class="about-section" id="sobre" aria-labelledby="about-title"><div class="wrap about-grid"><div class="about-main"><h2 id="about-title">Sobre mim<span class="period">.</span></h2><p>Tenho experiência prática com desenvolvimento backend, integração de sistemas e automação de processos. Trabalho principalmente com Python e Java e venho ampliando minha atuação em interfaces web com React e TypeScript.</p><p>Gosto de entender o problema antes de escolher a tecnologia, e de entregar software que seja fácil de usar, evoluir e manter.</p></div><div class="about-details"><div class="detail-block"><h3>Formação</h3><p><strong>Ciência da Computação</strong><br>Universidade Regional do Noroeste do Estado do Rio Grande do Sul · UNIJUÍ</p></div><div class="detail-block"><h3>Principais tecnologias</h3><p>Python, FastAPI, Django, Java, Spring Boot, React, TypeScript, PostgreSQL, Docker, Linux e Git.</p></div><div class="detail-block"><h3>Interesses</h3><p>Arquitetura de APIs, integrações, desenvolvimento full stack e DevOps.</p></div></div></div></section>
+    <section class="contact-section wrap" id="contato" aria-labelledby="contact-title"><div><h2 id="contact-title">Vamos conversar<span class="period">?</span></h2><p>Tem uma oportunidade ou um projeto em mente? Estou aberto a boas conversas.</p></div><a class="button button-dark" href="mailto:candelonichristian@gmail.com">Enviar e-mail <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 16 16 4M6 4h10v10"/></svg></a></section>
+  </main>
+  <footer class="site-footer"><div class="wrap footer-inner"><span>© 2026 Christian Gabriel Candeloni</span><div><a href="https://github.com/ChristianGCa" target="_blank" rel="noopener noreferrer">GitHub</a><a href="https://www.linkedin.com/in/christian-gabriel-candeloni/" target="_blank" rel="noopener noreferrer">LinkedIn</a><a href="mailto:candelonichristian@gmail.com">E-mail</a></div></div></footer>
 </body>
 </html>
