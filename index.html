@@ -46,16 +46,28 @@
         <div class="section-heading"><div><h2 id="projects-title">Projetos em destaque<span class="period">.</span></h2><p>Uma seleção de produtos e sistemas que mostram como penso, construo e entrego.</p></div><a class="text-link" href="https://github.com/ChristianGCa?tab=repositories" target="_blank" rel="noopener noreferrer">Todos no GitHub <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 16 16 4M6 4h10v10"/></svg></a></div>
         <article class="featured-project">
           <div class="featured-info">
-            <p class="project-type">Aplicação web · Projeto em destaque</p><h3>Pure MD<span class="period">.</span></h3>
-            <p>Um editor Markdown que roda no navegador, com prévia em tempo real, atalhos de formatação e exportação para <code>.md</code>. Sem conta e sem backend.</p>
-            <ul class="tag-list" aria-label="Tecnologias do Pure MD"><li>React</li><li>TypeScript</li><li>Vite</li><li>Vitest</li></ul>
-            <div class="project-actions"><a class="button button-light" href="https://pure-md.vercel.app/" target="_blank" rel="noopener noreferrer">Usar o Pure MD <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 16 16 4M6 4h10v10"/></svg></a><a class="project-source" href="https://github.com/ChristianGCa/pure-md" target="_blank" rel="noopener noreferrer">Ver código-fonte <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 16 16 4M6 4h10v10"/></svg></a></div>
+            <p class="project-type">Aplicação web · Projeto em destaque</p><h3 class="featured-logo"><img src="img/nossoclima-logo-escuro.svg" width="404" height="72" alt="NossoClima"></h3>
+            <p>Previsão do tempo em português, rápida e acessível: busca de cidades, condições atuais e previsão de sete dias com dados da Open-Meteo. O fundo muda conforme o clima da cidade pesquisada, e o navegador lembra a última consulta para abrir já com a previsão atualizada.</p>
+            <p>Levei um app simples ao padrão de produção, com CI, cache, rate limiting, testes E2E, meta de LCP ≤ 2,5 s no mobile e atenção à LGPD.</p>
+            <ul class="tag-list" aria-label="Tecnologias do NossoClima"><li>React</li><li>Fastify</li><li>Redis</li><li>Vercel</li><li>Playwright</li></ul>
+            <div class="project-actions"><a class="button button-light" href="https://nossoclima.vercel.app/" target="_blank" rel="noopener noreferrer">Usar o NossoClima <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 16 16 4M6 4h10v10"/></svg></a><a class="project-source" href="https://github.com/ChristianGCa/nosso-clima" target="_blank" rel="noopener noreferrer">Ver código-fonte <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 16 16 4M6 4h10v10"/></svg></a></div>
           </div>
-          <div class="editor-art"><img src="img/screen.webp" width="1914" height="933" alt="Captura do Pure MD com o editor Markdown e a prévia lado a lado."></div>
+          <div class="editor-art"><img src="img/nossoclima.webp" width="1893" height="921" alt="Captura do NossoClima com as condições atuais em Los Angeles e a previsão de sete dias sobre um fundo de paisagem nublada."></div>
         </article>
         <div class="project-list">
+          <article class="project-row project-row-visual">
+            <div class="project-index">01 / Projeto pessoal</div>
+            <div class="project-row-main">
+              <h3 class="project-title"><img src="img/puremd-logo.svg" width="40" height="40" alt="">Pure MD</h3>
+              <p>Um editor Markdown que roda no navegador, com prévia em tempo real, atalhos de formatação e exportação para <code>.md</code>. Sem conta e sem backend.</p>
+              <ul class="tag-list" aria-label="Tecnologias do Pure MD"><li>React</li><li>TypeScript</li><li>Vite</li><li>Vitest</li></ul>
+              <a class="row-app-link text-link" href="https://pure-md.vercel.app/" target="_blank" rel="noopener noreferrer">Usar o Pure MD <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 16 16 4M6 4h10v10"/></svg></a>
+            </div>
+            <figure class="project-preview"><img src="img/screen.webp" width="1914" height="933" loading="lazy" decoding="async" alt="Captura do Pure MD com o editor Markdown e a prévia lado a lado."></figure>
+            <a class="row-link" href="https://github.com/ChristianGCa/pure-md" target="_blank" rel="noopener noreferrer" aria-label="Ver Pure MD no GitHub"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 16 16 4M6 4h10v10"/></svg></a>
+          </article>
           <article class="project-row">
-            <div class="project-index">01 / Projeto de estágio</div>
+            <div class="project-index">02 / Projeto de estágio</div>
             <div class="project-row-main">
               <h3>Desk2Agile</h3>
               <p>Durante meu estágio, desenvolvi um middleware em Spring Boot que cria issues no Taiga a partir de chamados do GLPI e atualiza o progresso no chamado conforme a issue avança. O fluxo substituiu a criação e a sincronização manuais.</p>
@@ -64,7 +76,7 @@
             <a class="row-link" href="https://github.com/ChristianGCa/Desk2Agile" target="_blank" rel="noopener noreferrer" aria-label="Ver Desk2Agile no GitHub"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 16 16 4M6 4h10v10"/></svg></a>
           </article>
           <article class="project-row project-row-visual">
-            <div class="project-index">02 / Projeto de curso</div>
+            <div class="project-index">03 / Projeto de curso</div>
             <div class="project-row-main">
               <h3>Sistema de Gestão de Estoque</h3>
               <p>Aplicação web desenvolvida no curso Django Master para cadastrar produtos e fornecedores, registrar entradas e saídas de estoque e acompanhar métricas de vendas. Inclui uma API REST com autenticação JWT.</p>
